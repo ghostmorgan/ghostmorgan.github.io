@@ -10,12 +10,12 @@ categories: posts
 tags: ['linux']
 author: DenIvTea
 ---
-<article style="display: none;"><h2>5.1 man Pages</h2>
+<h2>5.1 man Pages</h2>
 <p>As previously mentioned, UNIX was the operating system from which the Linux foundation was built.  The developers of UNIX created help documents called <var>man pages</var> (man stands for manual).</p>
 
-<p>Man pages are used to describe the features of commands.  They will provide you with a basic description of the purpose of the command, as well as provide details regarding the options of the command.</p></article>
+<p>Man pages are used to describe the features of commands.  They will provide you with a basic description of the purpose of the command, as well as provide details regarding the options of the command.</p>
 
-<article style="display: block;"><h2>5.1.1 Viewing man pages</h2>
+<h2>5.1.1 Viewing man pages</h2>
 <p>To view a man page for a command, execute <code class="input">man <var>command</var></code> in a terminal window.  For example, the command <code>man cal</code> will display the man page for the <code>cal</code> command:</p>
 
 <pre class="content_terminal">CAL(1)                    BSD General Commands Manual             CAL(1) 
@@ -38,5 +38,3 @@ year]
  -h      Turns off highlighting of today.                                   
                                                  
  Manual page cal(1) line 1 (press h for help or q to quit)</pre>     
-
-</article>
