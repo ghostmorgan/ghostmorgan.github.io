@@ -18,7 +18,7 @@ author: DenIvTea
 
 <a href="#pookie">5.1 man Pages</a>
 
-<a name="pookie"><h2>5.1 man Pages</h2></a>
+<h2><a name="pookie">5.1 man Pages</a></h2>
 <p>As previously mentioned, UNIX was the operating system from which the Linux foundation was built.  The developers of UNIX created help documents called <var>man pages</var> (man stands for manual).</p>
 
 <p>Man pages are used to describe the features of commands.  They will provide you with a basic description of the purpose of the command, as well as provide details regarding the options of the command.</p>
