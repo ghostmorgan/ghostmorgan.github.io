@@ -10,7 +10,15 @@ categories: posts
 tags: ['linux']
 author: DenIvTea
 ---
-<h2>5.1 man Pages</h2>
+<p>If you ask users what feature of the Linux Operating System they most enjoy, many will answer "the power provided by the command line environment".  This is because there are literally thousands of commands available with many options, making them powerful tools.</p>
+
+<p>However, with this power comes complexity.  Complexity, in turn, can create confusion.  As a result, knowing how to find help while working in Linux is an essential skill for any user.  Referring to help allows you to be reminded of how a command works, as well as being an information resource when learning new commands. </p>
+
+Навигация по статье:
+
+<a href="#pookie">5.1 man Pages</a>
+
+<a name="pookie"><h2>5.1 man Pages</h2></a>
 <p>As previously mentioned, UNIX was the operating system from which the Linux foundation was built.  The developers of UNIX created help documents called <var>man pages</var> (man stands for manual).</p>
 
 <p>Man pages are used to describe the features of commands.  They will provide you with a basic description of the purpose of the command, as well as provide details regarding the options of the command.</p>
