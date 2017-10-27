@@ -16,7 +16,7 @@ author: DenIvTea
 
 Навигация по статье:
 
-<a href="#pookie">5.1 man Pages</a>
+* <a href="#pookie">5.1 man Pages</a>
 
 <h2><a name="pookie">5.1 man Pages</a></h2>
 <p>As previously mentioned, UNIX was the operating system from which the Linux foundation was built.  The developers of UNIX created help documents called <var>man pages</var> (man stands for manual).</p>
