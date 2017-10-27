@@ -2,13 +2,13 @@
 <div id="disqus_thread"></div>
 <script>
 var disqus_config = function () {
-this.page.url = "https://ghostmorgan.github.io/{{ page.url }}"; // <--- use canonical URL
+this.page.url = "https://ghostmorgan.github.io{{ page.url }}"; 
 this.page.identifier = "{{ page.id }}";
 };
-(function() { // DON'T EDIT BELOW THIS LINE
+(function() { 
 var d = document, s = d.createElement('script');
 
-s.src = 'ghostmorgan-github-io.disqus.com/embed.js'; // <--- use Disqus shortname
+s.src = 'ghostmorgan-github-io.disqus.com/embed.js'; 
 
 s.setAttribute('data-timestamp', +new Date());
 (d.head || d.body).appendChild(s);
