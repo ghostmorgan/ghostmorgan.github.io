@@ -1,6 +1,7 @@
 ---
 bg: "linux.jpg"
 layout: post
+comments: true
 title:  "Archiving and Compression"
 crawlertitle: "Archiving and Compression"
 summary: "Архивирование и сжатие"
