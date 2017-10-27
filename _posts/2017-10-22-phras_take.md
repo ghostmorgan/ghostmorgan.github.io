@@ -1,6 +1,7 @@
 ---
 bg: "en_time.jpeg"
 layout: post
+comments: true
 title:  "Основные значения фразового глагола take"
 crawlertitle: "Основные значения фразового глагола take"
 summary: "Фразовый глагол Take"
