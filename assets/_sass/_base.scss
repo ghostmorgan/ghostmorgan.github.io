@@ -264,6 +264,33 @@ a img {
     background-color: #111;
 }
 
+.content_terminal .ansi-red {
+    color: #ef2929;
+}
+
+.content_terminal .ansi-green {
+    color: #8ae234;
+}
+
+.content_terminal .ansi-yellow {
+    color: #ffff00;
+}
+
 .content_terminal .ansi-blue {
     color: #729fcf;
+}
+
+.content_terminal .ansi-magenta {
+    color: #ad7fa8;
+}
+
+.content_terminal .ansi-cyan {
+    color: #34e2e2;
+}
+
+.console {
+  color: #333333;
+  background: none;
+  font-size: 100%;
+  white-space: normal;
 }
