@@ -57,7 +57,7 @@ year]
                                                  
  Manual page cal(1) line 1 (press h for help or q to quit)</pre>     
 
-<h2>5.1.2 Controlling the man Page Display</h2>
+<h2><a name="3">5.1.2 Controlling the man Page Display</a></h2>
 <p>The <code>man</code> command uses a "pager" to display documents.  Normally this pager is the <code>less</code> command, but on some distributions it may be the <code>more</code> command.  Both are very similar in how they perform and will be discussed in more detail in a later chapter.</p>
 
 <p>If you want to view the various movement commands that are available, you can type the letter <strong>h</strong> while viewing a man page.  This will display a help page: </p>
@@ -138,7 +138,7 @@ HELP -- Press RETURN for more, or q when done</pre>
 </tbody>
 </table>
 
-<h2><a name="#4">5.1.3 Sections of the man Page</a></h2>
+<h2><a name="4">5.1.3 Sections of the man Page</a></h2>
 <p>Man pages are broken into sections.  Each section is designed to provide specific information about a command.  While there are common sections that you will see in most man pages, some developers also create sections that you will only see in a specific man page.</p>
 
 <p>The following table describes some of the more common sections that you will find in man pages:</p>
@@ -188,7 +188,7 @@ HELP -- Press RETURN for more, or q when done</pre>
 </tbody>
 </table>
 
-<h2><a name="#5">5.1.4 man Page SYNOPSIS Section</a></h2>
+<h2><a name="5">5.1.4 man Page SYNOPSIS Section</a></h2>
 <p>The <code class="console">SYNOPSIS</code> section of a man page can be difficult to understand, but is very important because it provides a concise example of how to use the command.  For example, consider the <code class="console">SYNOPSIS</code> of the man page for the <code>cal</code> command:</p>
 
 
@@ -213,14 +213,14 @@ HELP -- Press RETURN for more, or q when done</pre>
 
 <p>Additionally the <code class="console">[-u|--utc|--universal]</code> notation means that you can either use the <code class="console">-u</code> option or the <code class="console">--utc</code> option or the <code class="console">--universal </code>option.  Typically this means that all three options really do the same thing, but sometimes this format (use of the <code class="console">|</code> character) is used to indicate that the options can't be used in combination, like a logical “or".</p>
 
-<h2><a name="#6">5.1.5 Searching Within a man Page</a></h2>
+<h2><a name="6">5.1.5 Searching Within a man Page</a></h2>
 <p>In order to search a man page for a term, press the <code class="console">/</code> and type the term followed by the <strong>Enter</strong> key.  The program will search from the current location down towards the bottom of the page to try to locate and highlight the term. </p>
 
 <p>If the term is not found, or you have reached the end of the matches, then the program will report <code class="console">Pattern not found (press Return)</code>.  If a match is found and you want to move to the next match of the term, press <strong>n</strong>.  To return to a previous match of the term, press <strong>N</strong>.</p>
 
 <div class="content-image "><img alt="" class="img-responsive" src="https://ndg-content-dev.s3.amazonaws.com/media/images/5.3.5_1.png"></div>
 
-<h2><a name="#7">5.1.6 man Pages Categorized by Sections</a></h2>
+<h2><a name="7">5.1.6 man Pages Categorized by Sections</a></h2>
 <p>Until now, we have been displaying man pages for commands.  However, sometimes configuration files also have man pages.  Configuration files (sometimes called system files) contain information that is used to store information about the Operating System or services.</p>
 
 <p>Additionally, there are several different types of commands (user commands, system commands, and administration commands) as well as other features that require documentation, such as libraries and Kernel components.</p>
@@ -250,14 +250,14 @@ HELP -- Press RETURN for more, or q when done</pre>
 No manual entry for zed                                                
 <strong><span class="ansi-green">sysadmin@localhost</span>:<span class="ansi-blue">~</span>$</strong></pre>
 
-<h2><a name="#8">5.1.6.1 Determining Which Section</a></h2>
+<h2><a name="8">5.1.6.1 Determining Which Section</a></h2>
 <p>To determine which section a specific man page belongs to, look at the numeric value on the first line of the output of the man page.  For example, if you execute the command <code>man cal</code>, you will see that the <code>cal</code> command belongs to the first section of man pages:</p>
 
 
 
 <pre class="content_terminal">CAL<span class="attention"><span class="ansi-red">(1)</span></span>                    BSD General Commands Manual             CAL(1)</pre> 
 
-<h2><a name="#9">5.1.6.2 Specifying a Section</a></h2>
+<h2><a name="9">5.1.6.2 Specifying a Section</a></h2>
 <p>In some cases you will need to specify the section in order to display the correct man page.  This is necessary because sometimes there will be man pages with the same name in different sections.</p>
 
 <p>For example, there is a command called <code>passwd</code>that allows you to change your password.  There is also a file called <code class="console">passwd</code>that stores account information.  Both the command and the file have a man page.</p>
@@ -271,7 +271,7 @@ No manual entry for zed
  
 <pre class="content_terminal">PASSWD<span class="attention"><span class="ansi-red">(5)</span></span>                File Formats and Conversions          PASSWD(5)</pre>
 
-<h2><a name="#10">5.1.6.3 Searching Sections</a></h2>
+<h2><a name="10">5.1.6.3 Searching Sections</a></h2>
 <p>Sometimes it isn't clear what section a man page is stored in.  In cases like this, you can search for a man page by name.</p>
 
 <p>The <code>-f</code> option to the man command will display man pages that match, or partially match, a specific name and provide a brief description of each man page:</p>
@@ -285,7 +285,7 @@ passwd (1ssl)        - compute password hashes
 
 <p>Note that on most Linux distributions, the <code>whatis</code> command does the same thing as <code>man -f.</code>  On those distributions, both will produce the same output.</p>
 
-<h2><a name="#11">5.1.7 Searching man Pages by Keyword</a></h2>
+<h2><a name="11">5.1.7 Searching man Pages by Keyword</a></h2>
 <p>Unfortunately, you won't always remember the exact name of the man page that you want to view.  In these cases you can search for man pages that match a keyword by using the <code>-k</code> option to the <code>man</code> command.</p>
 
 For example, what if you knew you wanted a man page that displays how to change your password, but you didn't remember the exact name?  You could run the command <code>man -k password</code>:
