@@ -857,3 +857,5 @@ sample.txt
 <strong><span class="ansi-blue">Desktop    Downloads  Pictures  Templates   test                       
 Documents  Music      Public</span></strong>    sample.txt                             
 <strong><span class="ansi-green">sysadmin@localhost</span>:<span class="ansi-blue">~</span>$</strong></pre>           
+
+*Все материалы взяты с официального курса <i class="fa fa-link"></i> [NDG Linux Essential](https://www.netacad.com/ru/courses/ndg-linux-essentials/)*
