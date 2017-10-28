@@ -624,3 +624,4 @@ update-passwd (8)    - safely update /etc/passwd, /etc/shadow and /etc/group
   /usr/share/doc/passwd                                                 
   /usr/share/lintian/overrides/passwd                                    
   <strong><span class="ansi-green">sysadmin@localhost</span>:<span class="ansi-blue">~</span>$</strong></pre>                                                        
+*Все материалы взяты с официального курса <i class="fa fa-link"></i> [NDG Linux Essential](https://www.netacad.com/ru/courses/ndg-linux-essentials/)*
