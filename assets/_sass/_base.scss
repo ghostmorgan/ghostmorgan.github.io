@@ -257,3 +257,13 @@ a img {
   cursor: -webkit-zoom-in;
   cursor: zoom-in;
 }
+
+.content_terminal {
+    font-family: "Courier New", monospace;
+    color: #EEE;
+    background-color: #111;
+}
+
+.content_terminal .ansi-blue {
+    color: #729fcf;
+}
