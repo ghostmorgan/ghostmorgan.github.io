@@ -19,35 +19,35 @@ author: DenIvTea
 
 Навигация по статье:
 
-* <a href="#1">6.1 Understanding Files and Directories</a>
-* <a href="#2">6.1.1 Directory Path</a>
-* <a href="#3">6.1.2 Home Directory</a>
-* <a href="#4">6.1.3 Current Directory</a>
-* <a href="#5">6.1.4 Changing Directories</a>
-* <a href="#6">6.1.5 Absolute vs. Relative Pathnames</a>
-* <a href="#7">6.2 Listing Files in a Directory</a>
-* <a href="#8">6.2.1 Listing Colors</a>
-* <a href="#9">6.2.2 Listing Hidden Files</a>
-* <a href="#10">6.2.3 Long Display Listing</a>
-* <a href="#11">6.2.3.1 Human Readable Sizes</a>
-* <a href="#12">6.2.4 Listing Directories</a>
-* <a href="#13">6.2.5 Recursive Listing</a>
-* <a href="#14">6.2.6 Sort a Listing</a>
-* <a href="#15">6.2.7 Listing With Globs</a>
-* <a href="#16">6.3 Copying Files</a>
-* <a href="#17">6.3.1 Verbose Mode</a>
-* <a href="#18">6.3.2 Avoid Overwriting Data</a>
-* <a href="#19">6.3.3 Copying Directories</a>
-* <a href="#20">6.4 Moving Files</a>
-* <a href="#21">6.5 Moving Files While Renaming</a>
-* <a href="#22">6.5.1 Renaming Files</a>
-* <a href="#23">6.5.2 Additional mv Options</a>
-* <a href="#24">6.6 Creating Files</a>
-* <a href="#25">6.7 Removing Files</a>
-* <a href="#26">6.8 Removing Directories</a>
-* <a href="#27">6.9 Making Directories</a>
+* <a href="#1">1.1 Understanding Files and Directories</a>
+* <a href="#2">1.1.1 Directory Path</a>
+* <a href="#3">1.1.2 Home Directory</a>
+* <a href="#4">1.1.3 Current Directory</a>
+* <a href="#5">1.1.4 Changing Directories</a>
+* <a href="#6">1.1.5 Absolute vs. Relative Pathnames</a>
+* <a href="#7">1.2 Listing Files in a Directory</a>
+* <a href="#8">1.2.1 Listing Colors</a>
+* <a href="#9">1.2.2 Listing Hidden Files</a>
+* <a href="#10">1.2.3 Long Display Listing</a>
+* <a href="#11">1.2.3.1 Human Readable Sizes</a>
+* <a href="#12">1.2.4 Listing Directories</a>
+* <a href="#13">1.2.5 Recursive Listing</a>
+* <a href="#14">1.2.6 Sort a Listing</a>
+* <a href="#15">1.2.7 Listing With Globs</a>
+* <a href="#16">1.3 Copying Files</a>
+* <a href="#17">1.3.1 Verbose Mode</a>
+* <a href="#18">1.3.2 Avoid Overwriting Data</a>
+* <a href="#19">1.3.3 Copying Directories</a>
+* <a href="#20">1.4 Moving Files</a>
+* <a href="#21">1.5 Moving Files While Renaming</a>
+* <a href="#22">1.5.1 Renaming Files</a>
+* <a href="#23">1.5.2 Additional mv Options</a>
+* <a href="#24">1.6 Creating Files</a>
+* <a href="#25">1.7 Removing Files</a>
+* <a href="#26">1.8 Removing Directories</a>
+* <a href="#27">1.9 Making Directories</a>
 
-<h2><a name="1">6.1 Understanding Files and Directories</a></h2>
+<h2><a name="1">1.1 Understanding Files and Directories</a></h2>
 <p>Files are used to store data such as text, graphics and programs.  Directories (AKA, "folders") are used to provide a hierarchical organization structure.  This structure is somewhat different than what you might be used to if you have previously worked on Microsoft Windows systems.</p>
 
 <p>On a Windows system, the <var>top level</var> of the directory structure is called <var>My Computer</var>.  Each physical device (hard drive, DVD drive, USB thumb drive, network drive, etc.) shows up under My Computer, each assigned a drive letter, such as <var>C:</var> or <var>D:</var>.  A visual representation of this structure:</p>
@@ -70,7 +70,7 @@ author: DenIvTea
 
 <p>Notice that there are many descriptive directories including <code class="console">/boot</code>, which contains files to boot the computer.</p>
 
-<h2><a name="2">6.1.1 Directory Path</a></h2>
+<h2><a name="2">1.1.1 Directory Path</a></h2>
 <p>Using the graphic in the previous section as a point of reference, you will see that there is a directory named <code class="console">sound</code> under a directory named <code class="console">etc</code>, which is under the <code class="console">/</code> directory.  An easier way to say this, is to refer to  the <var>path</var>.</p>
 
 <div class="alert alert-info">
@@ -88,7 +88,7 @@ author: DenIvTea
 
 <div class="content-image "><img alt="" class="img-responsive" src="https://ndg-content-dev.s3.amazonaws.com/media/images/6.3.1_1.png"></div>
 
-<h2><a name="3">6.1.2 Home Directory</a></h2>
+<h2><a name="3">1.1.2 Home Directory</a></h2>
 <p>The term <var>home directory</var> often causes confusion to beginning Linux users.  To begin with, on most Linux distributions there is a directory called <code class="console">home</code> under the <code class="console">root</code> directory: <code class="console">/home</code>.</p>
 
 <p>Under this <code class="console">/home</code> directory there will be a directory for each user on the system.  The directory name will be the same as the name of the user, so a user named "bob" would have a <var>home directory</var> called <code class="console">/home/bob</code>.</p>
@@ -119,7 +119,7 @@ Why did the command above result in an error? That is because Linux environments
 <strong><span class="ansi-green">sysadmin@localhost</span>:<span class="ansi-blue">~/Downloads</span>$</strong></pre>   
 
 
-<h2><a name="4">6.1.3 Current Directory</a></h2>
+<h2><a name="4">1.1.3 Current Directory</a></h2>
 <p>Your <var>current directory</var> is the directory where you are currently working in a terminal.  When you first open a terminal, the current directory should be your home directory, but this can change as you explore the filesystem and change to other directories.</p>
 
 <p>While you are in a command line environment, you can determine your current directory by using the <code>pwd</code> command:</p>
@@ -137,7 +137,7 @@ Why did the command above result in an error? That is because Linux environments
 
 <p>Normally the prompt only displays the name of the current directory, not the full path from the root directory down.  In other words, if you were in the <code class="console">/usr/share/doc</code> directory, your prompt will likely just provide you with the name <code class="console">doc</code> for the current directory.  If you want the full path, use the <code>pwd</code> command.</p>
 
-<h2><a name="5">6.1.4 Changing Directories</a></h2>
+<h2><a name="5">1.1.4 Changing Directories</a></h2>
 <p>If you want to change to a different directory, use the <code>cd</code> (change directory) command.  For example, the following command will change the current directory to a directory called <code class="console">/etc/sound/events</code>:</p>
 
 <pre class="content_terminal"><strong><span class="ansi-green">sysadmin@localhost</span>:<span class="ansi-blue">~</span>$</strong> cd /etc/sound/events                                    
@@ -161,7 +161,7 @@ Why did the command above result in an error? That is because Linux environments
 /home/sysadmin                                                                
 <strong><span class="ansi-green">sysadmin@localhost</span>:<span class="ansi-blue">~</span>$</strong></pre>  
 
-<h2><a name="6">6.1.5 Absolute vs. Relative Pathnames</a></h2>
+<h2><a name="6">1.1.5 Absolute vs. Relative Pathnames</a></h2>
 <p>Recall that a pathname is essentially a description of where a file or directory is located in the filesystem.  You can also consider a pathname to be directions that tell the system where to find a file or directory.  For example, the <code>cd /etc/perl/Net</code> command means "change to the <code class="console">Net</code> directory, that you will find under the <code class="console">perl</code> directory, that you will find under the <code class="console">etc</code> directory, that you will find under the <code class="console">/</code> directory".</p>
 
 <p>When you give a pathname that starts from the root directory, it is called an <var>absolute path</var>.  In many cases, providing an absolute path makes sense.  For example, if you are in your <code class="console">home</code> directory and you want to go to the <code class="console">/etc/perl/Net</code> directory, then providing an absolute path to the <code>cd</code> command makes sense:</p>
@@ -212,7 +212,7 @@ Why did the command above result in an error? That is because Linux environments
 
 <div class="alert alert-info">Note: This use of the single dot (<code class="console">.</code>) as a reference point is not to be confused with using it at the beginning of a filename.  Read more about hidden files in Section 6.4.2.</div>
 
-<h2><a name="7">6.2 Listing Files in a Directory</a></h2>
+<h2><a name="7">1.2 Listing Files in a Directory</a></h2>
 <p>Now that you are able to move from one directory to another, you will want to start displaying the contents of these directories.  The <code>ls</code> command (<code>ls</code> is short for list) can be used to display the contents of a directory as well as detailed information about the files that are within a directory.</p>
 
 <p>By itself, the <code>ls</code> command will list the files in the current directory:</p>
@@ -223,7 +223,7 @@ Videos</span></strong>
 <strong><span class="ansi-green">sysadmin@localhost</span>:<span class="ansi-blue">~</span>$</strong>
 </pre>          
 
-<h2><a name="8">6.2.1 Listing Colors</a></h2>
+<h2><a name="8">1.2.1 Listing Colors</a></h2>
 <p>There are many different types of files in Linux.  As you learn more about Linux, you will discover many of these types.  The following is a brief summary of some of the more common file types:</p>
 
 <table class="table ">
@@ -277,7 +277,7 @@ Desktop  Documents  Downloads  Music  Pictures  Public  Templates
 Videos       
 <strong><span class="ansi-green">sysadmin@localhost</span>:<span class="ansi-blue">~</span>$</strong></pre>  
 
-<h2><a name="9">6.2.2 Listing Hidden Files</a></h2>
+<h2><a name="9">1.2.2 Listing Hidden Files</a></h2>
 <p>When you use the <code>ls</code> command to display the contents of a directory, not all files are shown automatically.  The <code>ls</code> command doesn't display <var>hidden files</var> by default.  A hidden file is any file (or directory) that begins with a dot <code class="console">.</code> character.</p>
 
 <p>To display all files, including hidden files, use the <code>-a</code> option to the <code>ls</code> command:</p>
@@ -291,7 +291,7 @@ Videos
 
 <p>These customization files are not ones that you work with on a regular basis.  There are also many of them, as you can see, and having them displayed will make it more difficult to find the files that you do regularly work with.  So, the fact that they are hidden is to your benefit.</p>
 
-<h2><a name="10">6.2.3 Long Display Listing</a></h2>
+<h2><a name="10">1.2.3 Long Display Listing</a></h2>
 <p>There is information about each file, called <var>metadata</var> that is sometimes helpful to display.  This may include who owns a file, the size of a file and the last time the contents of a file were modified.  You can display this information by using the <code>-l</code> option to the <code>ls</code> command:</p>
 
 <pre class="content_terminal"><strong><span class="ansi-green">sysadmin@localhost</span>:<span class="ansi-blue">~</span>$</strong> ls -l                                           
@@ -317,7 +317,7 @@ drwxr-xr-x 1 sysadmin sysadmin 0 Jan 29  2015 <strong><span class="ansi-blue">Vi
 <div class="content-image "><img alt="" class="img-responsive" src="https://ndg-content-dev.s3.amazonaws.com/media/images/linux-essentials/linux_643_redo.png"></div>
 <div class="content-image "><img alt="" class="img-responsive" src="https://ndg-content-dev.s3.amazonaws.com/media/images/6.4.3_9.png"></div>
 
-<h2><a name="11">6.2.3.1 Human Readable Sizes</a></h2>
+<h2><a name="11">1.2.3.1 Human Readable Sizes</a></h2>
 <p>When you display file sizes with the <code>-l</code> option to the <code>ls</code> command, you end up with file sizes in bytes.  For text files, a byte is 1 character.  </p>
 
 <p>For smaller files, byte sizes are fine.  However, for larger files it is hard to comprehend how large the file is.  For example, consider the output of the following command:</p>
@@ -338,7 +338,7 @@ drwxr-xr-x 1 sysadmin sysadmin 0 Jan 29  2015 <strong><span class="ansi-blue">Vi
 
 <div class="alert alert-danger">Important: The <code>-h</code> option must be used with the <code>-l</code> option.</div>  
 
-<h2><a name="12">6.2.4 Listing Directories</a></h2>
+<h2><a name="12">1.2.4 Listing Directories</a></h2>
 <p>When the command <code>ls -d</code> is used, it refers to the current directory, and not the contents within it.  Without any other options, it is rather meaningless, although it is important to note that the current directory is always referred to with a single period (<code class="console">.</code>):</p>
 
 
@@ -366,7 +366,7 @@ drwxr-xr-x 1 sysadmin sysadmin 224 Nov  7 17:07 <strong><span class="ansi-blue">
 
 <p>Note the single period at the end of the second long listing.  This indicates that the current directory is being listed, and not the contents.</p>
 
-<h2><a name="13">6.2.5 Recursive Listing</a></h2>
+<h2><a name="13">1.2.5 Recursive Listing</a></h2>
 <p>There will be times when you want to display all of the files in a directory as well as all of the files in all subdirectories under a directory.  This is called a <var>recursive listing</var>.  </p>
 
 <p>To perform a recursive listing, use the <code>-R</code> option to the <code>ls</code> command:</p>
@@ -386,7 +386,7 @@ chap-secrets   <strong><span class="ansi-green">ip-down.ipv6to4    ip-up.ipv6to4
 
 <p>Be careful with this option; for example, running the command <code>ls -R /</code> would list every file on the file system, including all files on any attached USB device and DVD in the system.  Limit the use of the <code>-R</code> option to smaller directory structures.</p>
 
-<h2><a name="14">6.2.6 Sort a Listing</a></h2>
+<h2><a name="14">1.2.6 Sort a Listing</a></h2>
 <p>By default, the <code>ls</code> command sorts files alphabetically by file name.  Sometimes, It may  be useful to sort files using different criteria. </p>
 
 <p>To sort files by size, we can use the <code>-S</code> option.  Note the difference in the output of the following two commands:</p>
@@ -507,7 +507,7 @@ total 160
 <strong><span class="ansi-green">sysadmin@localhost</span>:<span class="ansi-blue">~</span>$</strong></pre> 
 
 
-<h2><a name="15">6.2.7 Listing With Globs</a></h2>
+<h2><a name="15">1.2.7 Listing With Globs</a></h2>
 <p>In a previous chapter, we discussed the use of file globs to match filenames using wildcard characters.  For example, we demonstrated that you can list all of the files in the <code class="console">/etc</code> directory that begin with the letter <code class="console">e</code> with the following command:</p>
 
 
@@ -571,7 +571,7 @@ ck-log-system-restart  ck-log-system-start  ck-log-system-stop
 /etc/encript.cfg /etc/environment /etc/ethers <strong><span class="ansi-blue">/etc/event.d</span></strong> /etc/exports   
 <strong><span class="ansi-green">sysadmin@localhost</span>:<span class="ansi-blue">~</span>$</strong></pre>  
 
-<h2><a name="16">6.3 Copying Files</a></h2>
+<h2><a name="16">1.3 Copying Files</a></h2>
 <p>The <code>cp</code> command is used to copy files.  It requires that you specify a source and a destination.  The structure of the command is as follows:</p>
 
 <pre class="config">cp [source] [destination]</pre>
@@ -589,7 +589,7 @@ ck-log-system-restart  ck-log-system-start  ck-log-system-stop
 <strong>Remember:</strong> The <code class="console">~</code> character represents your home directory.</div>
 
 
-<h2><a name="17">6.3.1 Verbose Mode</a></h2>
+<h2><a name="17">1.3.1 Verbose Mode</a></h2>
 <p>The <code>-v</code> option will cause the <code>cp</code> command to produce output if successful.  The <code>-v</code> option stands for <var>verbose</var>:</p>
 
 <pre class="content_terminal"><strong><span class="ansi-green">sysadmin@localhost</span>:<span class="ansi-blue">~</span>$</strong> cp -v /etc/hosts ~                              
@@ -605,7 +605,7 @@ ck-log-system-restart  ck-log-system-start  ck-log-system-stop
 <strong><span class="ansi-green">sysadmin@localhost</span>:<span class="ansi-blue">~</span>$</strong>
 </pre>
 
-<h2><a name="18">6.3.2 Avoid Overwriting Data</a></h2>
+<h2><a name="18">1.3.2 Avoid Overwriting Data</a></h2>
 <p>The <code>cp</code> command can be destructive to existing data if the destination file already exists.  In the case where the destination file exists , the <code>cp</code> command will overwrite the existing file's contents with the contents of the source file.  To illustrate this potential problem, first a new file is created in the <code class="console">sysadmin</code> home directory by copying an existing file:</p>
 
 <pre class="content_terminal"><strong><span class="ansi-green">sysadmin@localhost</span>:<span class="ansi-blue">~</span>$</strong> cp /etc/skel/.bash_logout ~/example.txt 
@@ -675,7 +675,7 @@ cp: overwrite `/home/sysadmin/.selected_editor'? n
 
 <p>If you want to automatically answer <strong>n</strong> to each prompt, use the <code>-n</code> option.  It essentially stands for "no rewrite”.</p>
 
-<h2><a name="19">6.3.3 Copying Directories</a></h2>
+<h2><a name="19">1.3.3 Copying Directories</a></h2>
 <p>In a previous example, error messages were given when the <code>cp</code> command attempted to copy directories:</p>
 
 <pre class="content_terminal"><strong><span class="ansi-green">sysadmin@localhost</span>:<span class="ansi-blue">~</span>$</strong> cp -i /etc/skel/.* ~                             
@@ -692,7 +692,7 @@ cp: overwrite `/home/sysadmin/.selected_editor'? n
 
 <p>Be careful with this option: the entire directory structure will be copied.  This could result in copying a lot of files and directories!</p>
 
-<h2><a name="20">6.4 Moving Files</a></h2>
+<h2><a name="20">1.4 Moving Files</a></h2>
 <p>To move a file, use the <code>mv</code> command.  The syntax for the <code>mv</code> command is much like the <code>cp</code> command:</p>
 
 <pre class="config">mv [source] [destination]</pre>
@@ -719,7 +719,7 @@ mv: cannot move `/etc/hosts' to `./hosts': Permission denied
 
 <div class="alert alert-info">A detailed discussion of permissions is provided in a later chapter.</div>
 
-<h2><a name="21">6.5 Moving Files While Renaming</a></h2>
+<h2><a name="21">1.5 Moving Files While Renaming</a></h2>
 <p>If the destination for the <code>mv</code> command is a directory, the file will be moved to the directory specified.  The file name will change only if a destination file name is also specified.</p>
 
 <p>If a destination directory is not specified, the file will be renamed using the destination file name and remain in the source directory.</p>
@@ -736,7 +736,7 @@ hosts  newexample.txt
 <strong><span class="ansi-green">sysadmin@localhost</span>:<span class="ansi-blue">~</span>$</strong>
 </pre>
 
-<h2><a name="22">6.5.1 Renaming Files</a></h2>
+<h2><a name="22">1.5.1 Renaming Files</a></h2>
 <p>The <code>mv</code> command is not just used to move a file, but also to rename a file.  For example, the following commands will rename the <code class="console">newexample.txt</code> file to <code class="console">myexample.txt</code>:</p>
 
 <pre class="content_terminal"><strong><span class="ansi-green">sysadmin@localhost</span>:<span class="ansi-blue">~</span>$</strong> cd Videos                                        
@@ -749,7 +749,7 @@ hosts  myexample.txt
 
 <p>Think of the previous <code>mv</code> example to mean "move the <code class="console">newexample.txt</code> file from the current directory back into the current directory and give the new file the name <code class="console">myexample.txt</code>”.</p>
 
-<h2><a name="23">6.5.2 Additional mv Options</a></h2>
+<h2><a name="23">1.5.2 Additional mv Options</a></h2>
 <p>Like the <code>cp</code> command, the <code>mv</code> command provides the following options:</p>
 
 <table class="table ">
@@ -776,7 +776,7 @@ hosts  myexample.txt
 <div class="alert alert-danger">
 <strong>Important:</strong> There is no <code>-r</code> option as the <code>mv</code> command will by default move directories.</div>
 
-<h2><a name="24">6.6 Creating Files</a></h2>
+<h2><a name="24">1.6 Creating Files</a></h2>
 <p>There are several ways of creating a new file, including using a program designed to edit a file (a text editor).  In a later chapter, text editors will be covered.</p>
 
 <p>There is also a way to simply create a file that can be populated with data at a later time.  This is a useful feature since for some operating system features, the very existence of a file could alter how a command or service works.  It is also useful to create a file as a "placeholder" to remind you to create the file contents at a later time.</p>
@@ -794,7 +794,7 @@ Videos</span></strong>
 
 <p>Notice the size of the new file is 0 bytes.  As previously mentioned, the <code>touch</code> command doesn't place any data within the new file.</p>
 
-<h2><a name="25">6.7 Removing Files</a></h2>
+<h2><a name="25">1.7 Removing Files</a></h2>
 <p>To delete a file, use the <code>rm</code> command:</p>
 
 <pre class="content_terminal"><strong><span class="ansi-green">sysadmin@localhost</span>:<span class="ansi-blue">~</span>$</strong> ls                                               
@@ -824,7 +824,7 @@ rm: remove regular empty file `test.txt'? y
 <strong><span class="ansi-blue">Documents  Music      Public    Videos</span></strong>                                 
 <strong><span class="ansi-green">sysadmin@localhost</span>:<span class="ansi-blue">~</span>$</strong></pre>  
 
-<h2><a name="26">6.8 Removing Directories</a></h2>
+<h2><a name="26">1.8 Removing Directories</a></h2>
 <p>You can delete directories using the <code>rm</code> command.  However, the default usage (no options) of the <code>rm</code> command will fail to delete a directory:</p>
 
 <pre class="content_terminal"><strong><span class="ansi-green">sysadmin@localhost</span>:<span class="ansi-blue">~</span>$</strong> rm Videos                                        
@@ -846,7 +846,7 @@ sample.txt
 
 <p>You can also delete a directory with the <code>rmdir</code> command, but only if the directory is empty.</p>
 
-<h2><a name="27">6.9 Making Directories</a></h2>
+<h2><a name="27">1.9 Making Directories</a></h2>
 <p>To create a directory, use the <code>mkdir</code> command:</p>
 
 <pre class="content_terminal"><strong><span class="ansi-green">sysadmin@localhost</span>:<span class="ansi-blue">~</span>$</strong> ls                                               
