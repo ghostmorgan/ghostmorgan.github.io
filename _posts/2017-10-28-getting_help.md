@@ -16,36 +16,36 @@ author: DenIvTea
 
 Навигация по статье:
 
-* <a href="#1">5.1 man Pages</a>
-* <a href="#2">5.1.1 Viewing man pages</a>
-* <a href="#3">5.1.2 Controlling the man Page Display</a>
-* <a href="#4">5.1.3 Sections of the man Page</a>
-* <a href="#5">5.1.4 man Page SYNOPSIS Section</a>
-* <a href="#6">5.1.5 Searching Within a man Page</a>
-* <a href="#7">5.1.6 man Pages Categorized by Sections</a>
-* <a href="#8">5.1.6.1 Determining Which Section</a>
-* <a href="#9">5.1.6.2 Specifying a Section</a>
-* <a href="#10">5.1.6.3 Searching Sections</a>
-* <a href="#11">5.1.7 Searching man Pages by Keyword</a>
-* <a href="#12">5.2 info Command</a>
-* <a href="#13">5.2.1 Displaying Info Documentation for a Command</a>
-* <a href="#14">5.2.2 Moving Around While Viewing an info Document</a>
-* <a href="#15">5.2.3 Exploring info Documentation</a>
-* <a href="#16">5.3 Additional Sources of Help</a>
-* <a href="#17">5.3.1 Using the --help Option</a>
-* <a href="#18">5.3.2 Additional System Documentation</a>
-* <a href="#19">5.4 Finding Commands and Documentation</a>
-* <a href="#20">5.4.1 Where Are These Commands Located?</a>
-* <a href="#21">5.4.2 Find Any File or Directory</a>
-* <a href="#22">5.4.3 Count the Number of Files</a>
-* <a href="#23">5.4.4 Limiting the Output</a>
+* <a href="#1">1.1 man Pages</a>
+* <a href="#2">1.1.1 Viewing man pages</a>
+* <a href="#3">1.1.2 Controlling the man Page Display</a>
+* <a href="#4">1.1.3 Sections of the man Page</a>
+* <a href="#5">1.1.4 man Page SYNOPSIS Section</a>
+* <a href="#6">1.1.5 Searching Within a man Page</a>
+* <a href="#7">1.1.6 man Pages Categorized by Sections</a>
+* <a href="#8">1.1.6.1 Determining Which Section</a>
+* <a href="#9">1.1.6.2 Specifying a Section</a>
+* <a href="#10">1.1.6.3 Searching Sections</a>
+* <a href="#11">1.1.7 Searching man Pages by Keyword</a>
+* <a href="#12">1.2 info Command</a>
+* <a href="#13">1.2.1 Displaying Info Documentation for a Command</a>
+* <a href="#14">1.2.2 Moving Around While Viewing an info Document</a>
+* <a href="#15">1.2.3 Exploring info Documentation</a>
+* <a href="#16">1.3 Additional Sources of Help</a>
+* <a href="#17">1.3.1 Using the --help Option</a>
+* <a href="#18">1.3.2 Additional System Documentation</a>
+* <a href="#19">1.4 Finding Commands and Documentation</a>
+* <a href="#20">1.4.1 Where Are These Commands Located?</a>
+* <a href="#21">1.4.2 Find Any File or Directory</a>
+* <a href="#22">1.4.3 Count the Number of Files</a>
+* <a href="#23">1.4.4 Limiting the Output</a>
 
-<h2><a name="1">5.1 man Pages</a></h2>
+<h2><a name="1">1.1 man Pages</a></h2>
 <p>As previously mentioned, UNIX was the operating system from which the Linux foundation was built.  The developers of UNIX created help documents called <var>man pages</var> (man stands for manual).</p>
 
 <p>Man pages are used to describe the features of commands.  They will provide you with a basic description of the purpose of the command, as well as provide details regarding the options of the command.</p>
 
-<h2><a name="2">5.1.1 Viewing man pages</a></h2>
+<h2><a name="2">1.1.1 Viewing man pages</a></h2>
 <p>To view a man page for a command, execute <code class="input">man <var>command</var></code> in a terminal window.  For example, the command <code>man cal</code> will display the man page for the <code>cal</code> command:</p>
 
 <pre class="content_terminal">CAL(1)                    BSD General Commands Manual             CAL(1) 
@@ -69,7 +69,7 @@ year]
                                                  
  Manual page cal(1) line 1 (press h for help or q to quit)</pre>     
 
-<h2><a name="3">5.1.2 Controlling the man Page Display</a></h2>
+<h2><a name="3">1.1.2 Controlling the man Page Display</a></h2>
 <p>The <code>man</code> command uses a "pager" to display documents.  Normally this pager is the <code>less</code> command, but on some distributions it may be the <code>more</code> command.  Both are very similar in how they perform and will be discussed in more detail in a later chapter.</p>
 
 <p>If you want to view the various movement commands that are available, you can type the letter <strong>h</strong> while viewing a man page.  This will display a help page: </p>
@@ -150,7 +150,7 @@ HELP -- Press RETURN for more, or q when done</pre>
 </tbody>
 </table>
 
-<h2><a name="4">5.1.3 Sections of the man Page</a></h2>
+<h2><a name="4">1.1.3 Sections of the man Page</a></h2>
 <p>Man pages are broken into sections.  Each section is designed to provide specific information about a command.  While there are common sections that you will see in most man pages, some developers also create sections that you will only see in a specific man page.</p>
 
 <p>The following table describes some of the more common sections that you will find in man pages:</p>
@@ -200,7 +200,7 @@ HELP -- Press RETURN for more, or q when done</pre>
 </tbody>
 </table>
 
-<h2><a name="5">5.1.4 man Page SYNOPSIS Section</a></h2>
+<h2><a name="5">1.1.4 man Page SYNOPSIS Section</a></h2>
 <p>The <code class="console">SYNOPSIS</code> section of a man page can be difficult to understand, but is very important because it provides a concise example of how to use the command.  For example, consider the <code class="console">SYNOPSIS</code> of the man page for the <code>cal</code> command:</p>
 
 
@@ -225,14 +225,14 @@ HELP -- Press RETURN for more, or q when done</pre>
 
 <p>Additionally the <code class="console">[-u|--utc|--universal]</code> notation means that you can either use the <code class="console">-u</code> option or the <code class="console">--utc</code> option or the <code class="console">--universal </code>option.  Typically this means that all three options really do the same thing, but sometimes this format (use of the <code class="console">|</code> character) is used to indicate that the options can't be used in combination, like a logical “or".</p>
 
-<h2><a name="6">5.1.5 Searching Within a man Page</a></h2>
+<h2><a name="6">1.1.5 Searching Within a man Page</a></h2>
 <p>In order to search a man page for a term, press the <code class="console">/</code> and type the term followed by the <strong>Enter</strong> key.  The program will search from the current location down towards the bottom of the page to try to locate and highlight the term. </p>
 
 <p>If the term is not found, or you have reached the end of the matches, then the program will report <code class="console">Pattern not found (press Return)</code>.  If a match is found and you want to move to the next match of the term, press <strong>n</strong>.  To return to a previous match of the term, press <strong>N</strong>.</p>
 
 <div class="content-image "><img alt="" class="img-responsive" src="https://ndg-content-dev.s3.amazonaws.com/media/images/5.3.5_1.png"></div>
 
-<h2><a name="7">5.1.6 man Pages Categorized by Sections</a></h2>
+<h2><a name="7">1.1.6 man Pages Categorized by Sections</a></h2>
 <p>Until now, we have been displaying man pages for commands.  However, sometimes configuration files also have man pages.  Configuration files (sometimes called system files) contain information that is used to store information about the Operating System or services.</p>
 
 <p>Additionally, there are several different types of commands (user commands, system commands, and administration commands) as well as other features that require documentation, such as libraries and Kernel components.</p>
@@ -262,14 +262,14 @@ HELP -- Press RETURN for more, or q when done</pre>
 No manual entry for zed                                                
 <strong><span class="ansi-green">sysadmin@localhost</span>:<span class="ansi-blue">~</span>$</strong></pre>
 
-<h2><a name="8">5.1.6.1 Determining Which Section</a></h2>
+<h2><a name="8">1.1.6.1 Determining Which Section</a></h2>
 <p>To determine which section a specific man page belongs to, look at the numeric value on the first line of the output of the man page.  For example, if you execute the command <code>man cal</code>, you will see that the <code>cal</code> command belongs to the first section of man pages:</p>
 
 
 
 <pre class="content_terminal">CAL<span class="attention"><span class="ansi-red">(1)</span></span>                    BSD General Commands Manual             CAL(1)</pre> 
 
-<h2><a name="9">5.1.6.2 Specifying a Section</a></h2>
+<h2><a name="9">1.1.6.2 Specifying a Section</a></h2>
 <p>In some cases you will need to specify the section in order to display the correct man page.  This is necessary because sometimes there will be man pages with the same name in different sections.</p>
 
 <p>For example, there is a command called <code>passwd</code>that allows you to change your password.  There is also a file called <code class="console">passwd</code>that stores account information.  Both the command and the file have a man page.</p>
@@ -278,12 +278,12 @@ No manual entry for zed
 
 <pre class="content_terminal">PASSWD<span class="attention"><span class="ansi-red">(1)</span></span>                        User Commands                 PASSWD(1)</pre>                                            
 
-<p>To specify a different section, provide the number of the section as the first argument of the man command.  For example, the command <code>man 5 passwd</code> will look for the <code>passwd</code> man page just in section <code class="console">5</code>:
+<p>To specify a different section, provide the number of the section as the first argument of the man command.  For example, the command <code>man 5 passwd</code> will look for the <code>passwd</code> man page just in section <code class="console">1</code>:
 </p>
  
 <pre class="content_terminal">PASSWD<span class="attention"><span class="ansi-red">(5)</span></span>                File Formats and Conversions          PASSWD(5)</pre>
 
-<h2><a name="10">5.1.6.3 Searching Sections</a></h2>
+<h2><a name="10">1.1.6.3 Searching Sections</a></h2>
 <p>Sometimes it isn't clear what section a man page is stored in.  In cases like this, you can search for a man page by name.</p>
 
 <p>The <code>-f</code> option to the man command will display man pages that match, or partially match, a specific name and provide a brief description of each man page:</p>
@@ -297,7 +297,7 @@ passwd (1ssl)        - compute password hashes
 
 <p>Note that on most Linux distributions, the <code>whatis</code> command does the same thing as <code>man -f.</code>  On those distributions, both will produce the same output.</p>
 
-<h2><a name="11">5.1.7 Searching man Pages by Keyword</a></h2>
+<h2><a name="11">1.1.7 Searching man Pages by Keyword</a></h2>
 <p>Unfortunately, you won't always remember the exact name of the man page that you want to view.  In these cases you can search for man pages that match a keyword by using the <code>-k</code> option to the <code>man</code> command.</p>
 
 For example, what if you knew you wanted a man page that displays how to change your password, but you didn't remember the exact name?  You could run the command <code>man -k password</code>:
@@ -322,7 +322,7 @@ update-passwd (8)    - safely update /etc/passwd, /etc/shadow and /etc/group
 
 <p>Note that on most Linux distributions, the <code>apropos</code> command does the same thing as <code>man -k</code>.  On those distributions, both will produce the same output.</p>
 
-<h2><a name="12">5.2 info Command</a></h2>
+<h2><a name="12">1.2 info Command</a></h2>
   <p>Man pages are great sources of information, but they do tend to have a few disadvantages.  One example of a disadvantage is that each man page is a separate document, not related to any other man page.  While some man pages have a <code class="console">SEE ALSO</code> section that may refer to other man pages, they really tend to be unrelated sources of documentation.</p>
 
   <p>The <code>info</code> command also provides documentation on operating system commands and features.  The goal of this command is slightly different from man pages: to provide a documentation resource that provides a logical organizational structure, making reading documentation easier.</p>
@@ -330,7 +330,7 @@ update-passwd (8)    - safely update /etc/passwd, /etc/shadow and /etc/group
   <p>Within info documents, information is broken down into categories that work much like a table of contents that you would find in a book.  Hyperlinks are provided to pages with information on individual topics for a specific command or feature.  In fact, all of the documentation is merged into a single "book" in which you can go to the top level of documentation and view the table of contents representing all of the documentation available.</p>
 
   <p>Another advantage of info over man pages is that the writing style of info documents is typically more conducive to learning a topic.  Consider man pages to be more of a reference resource and info documents to be more of a learning guide.</p>
-  <h2><a name="13">5.2.1 Displaying Info Documentation for a Command</a></h2>
+  <h2><a name="13">1.2.1 Displaying Info Documentation for a Command</a></h2>
   <p>To display the info documentation for a command, execute <code class="input">info <var>command</var></code> (replace <code class="console"><var>command</var></code> with the name of the command that you are seeking information about).  For example, the following demonstrates the output of the command <code>info ls</code>:</p>
 
   <pre class="content_terminal">File: coreutils.info,  Node: ls invocation,  Next: dir invocation,  Up: Directo\ry listing                                                                      
@@ -356,7 +356,7 @@ update-passwd (8)    - safely update /etc/passwd, /etc/shadow and /etc/group
   Welcome to Info version 5.2. Type h for help, m for menu item.</pre>
 
   <p>Notice that the first line provides some information that tells you where you are in the info documentation.  This documentation is broken up into <code class="console">nodes</code> and in the example above you are currently in the <code class="console">ls invocation</code> node.  If you went to the next node (like going to the next chapter in a book), you would be in the <code class="console">dir invocation</code> node.  If you went up one level you would be in the <code class="console">Directory listing</code> node.</p>
-  <h2><a name="14">5.2.2 Moving Around While Viewing an info Document</a></h2>
+  <h2><a name="14">1.2.2 Moving Around While Viewing an info Document</a></h2>
   <p>Like the <code>man</code> command, you can get a listing of movement commands by typing the letter <strong>h</strong> while reading the info documentation:</p>
 
   <pre class="content_terminal">Basic Info command keys                                                        
@@ -487,7 +487,7 @@ update-passwd (8)    - safely update /etc/passwd, /etc/shadow and /etc/group
                                                                    
 
   <p>Note that by going into the node about sorting, you essentially went into a sub-node of the one in which you originally started.  To go back to your previous node, you can use the <strong>u</strong> key.  While <strong>u</strong> will take you to the start of the node one level up, you could also use the <strong>l</strong> key to return you exactly to the previous location that you were before entering the sorting node.</p>
-  <h2><a name="15">5.2.3 Exploring info Documentation</a></h2>
+  <h2><a name="15">1.2.3 Exploring info Documentation</a></h2>
   <p>Instead of using info documentation to look up information about a specific command or feature, consider exploring the capabilities of Linux by reading through the info documentation.  If you execute the <code>info</code> command without any arguments, you are taken to the top level of the documentation.  From there you can explore many features:</p>
 
   <pre class="content_terminal">File: dir,      Node: Top       This is the top of the INFO tree                
@@ -511,10 +511,10 @@ update-passwd (8)    - safely update /etc/passwd, /etc/shadow and /etc/group
   -----Info: (dir)Top, 211 lines --Top------------------------------------
   Welcome to Info version 5.2. Type h for help, m for menu item.</pre>                  
 
-  <h2><a name="16">5.3 Additional Sources of Help</a></h2>
+  <h2><a name="16">1.3 Additional Sources of Help</a></h2>
   <p>In many cases, you will find that either man pages or info documentation will provide you with the answers you need.  However, in some cases, you may need to look in other locations. </p>
 
-  <h2><a name="17">5.3.1 Using the --help Option</a></h2>
+  <h2><a name="17">1.3.1 Using the --help Option</a></h2>
   <p>Many commands will provide you basic information, very similar to the <code class="console">SYNOPSIS</code> found in man pages, when you apply the <code>--help</code> option to the command.  This is useful to learn the basic usage of a command:</p>
 
   <pre class="content_terminal"><strong><span class="ansi-green">sysadmin@localhost</span>:<span class="ansi-blue">~</span>$</strong>  ps --help                                              
@@ -542,7 +542,7 @@ update-passwd (8)    - safely update /etc/passwd, /etc/shadow and /etc/group
   -w,w  wide output       n  numeric WCHAN,UID  -H process hierarchy            
   <strong><span class="ansi-green">sysadmin@localhost</span>:<span class="ansi-blue">~</span>$</strong> </pre>
 
-  <h2><a name="18">5.3.2 Additional System Documentation</a></h2>
+  <h2><a name="18">1.3.2 Additional System Documentation</a></h2>
   <p>On most systems, there is a directory where additional documentation is found.  This will often be a place where vendors who create additional (third party) software can store documentation files.</p>
 
   <p>Typically, this will be a place where system administrators will go to learn how to set up more complex software services.  However, sometimes regular users will also find this documentation to be useful.
@@ -550,7 +550,7 @@ update-passwd (8)    - safely update /etc/passwd, /etc/shadow and /etc/group
 
   <p>These documentation files are often called "readme" files, since the files typically have names such as <code class="console">README</code> or <code class="console">readme.txt</code>.  The location of these files can vary depending on the distribution that you are using.  Typical locations include <code class="console">/usr/share/doc</code> and <code class="console">/usr/doc</code>.</p>
 
-  <h2><a name="19">5.4 Finding Commands and Documentation</a></h2>
+  <h2><a name="19">1.4 Finding Commands and Documentation</a></h2>
   <p>Recall that the <code>whatis</code> command (or <code>man -f</code>) will tell you which section a man page is stored in.  If you use this command often enough, you will likely come across an unusual output, such as the following:</p>
 
   <pre class="content_terminal"><strong><span class="ansi-green">sysadmin@localhost</span>:<span class="ansi-blue">~</span>$</strong> whatis ls                                              
@@ -562,7 +562,7 @@ update-passwd (8)    - safely update /etc/passwd, /etc/shadow and /etc/group
 
   <p>This does, however, pose a bit of a problem: when you run the <code>ls</code> command, which command is executed?  The focus of the next few sections will be to answer this question as well as to provide you with the tools to find where these files reside on the system.</p>
 
-  <h2><a name="20">5.4.1 Where Are These Commands Located?</a></h2>
+  <h2><a name="20">1.4.1 Where Are These Commands Located?</a></h2>
   <p>To search for the location of a command or the man pages for a command, use the <code>whereis</code> command.  This command searches for commands, source files and man pages in specific locations where these files are typically stored:</p>
 
   <pre class="content_terminal"><strong><span class="ansi-green">sysadmin@localhost</span>:<span class="ansi-blue">~</span>$</strong> whereis ls                                              
@@ -572,7 +572,7 @@ update-passwd (8)    - safely update /etc/passwd, /etc/shadow and /etc/group
   <p>Man pages are normally easily distinguished between commands as they are normally compressed with a command called <code>gzip</code>, resulting in a filename that ends in <code class="console">.gz</code>. </p>
 
   <p>The interesting note is that you see there are two man pages listed, but only one command (<code class="console">/bin/ls</code>).  This is because the <code>ls</code> command can be used with the options/features that are described by <var>either</var> man page.  So, when you are learning what you can do with the <code>ls</code> command, you can explore both man pages.  Fortunately, this is more of an exception as most commands only have one man page.</p>
-  <h2><a name="21">5.4.2 Find Any File or Directory</a></h2>
+  <h2><a name="21">1.4.2 Find Any File or Directory</a></h2>
   <p>The <code>whereis</code> command is designed to specifically find commands and man pages.  While this is useful, there are times where you want to find a file or directory, not just files that are commands or man pages.</p>
 
   <p>To find any file or directory, you can use the <code>locate</code> command.  This command will search a database of all files and directories that were on the system when the database was created.  Typically, the command to generate this database is run nightly.</p>
@@ -597,7 +597,7 @@ update-passwd (8)    - safely update /etc/passwd, /etc/shadow and /etc/group
   <p>Any files that you created today will not normally be searchable with the <code>locate</code> command.  If you have access to the system as the <code class="console">root</code> user (the system administrator account), you can manually update the <code>locate</code> database by running the <code>updatedb</code> command.  Regular users cannot update the database file.</p>
 
   <p>Also note that when you use the <code>locate</code> command as a regular user, your output may be limited due to file permissions.  Essentially, if you don't have access to a file or directory on the filesystem due to permissions, the <code>locate</code> command won't return those names.  This is a security feature designed to keep users from "exploring" the filesystem by using the <code>locate</code> database.  The <code class="console">root</code> user can search for any file in the <code>locate</code> database.</p>
-  <h2><a name="22">5.4.3 Count the Number of Files</a></h2>
+  <h2><a name="22">1.4.3 Count the Number of Files</a></h2>
   <p>The output of the <code>locate</code> command can be quite large.  When you search for a filename, such as <code class="console">passwd</code>, the <code>locate</code> command will produce every file that contains the string <code class="console">passwd</code>, not just files named <code class="console">passwd</code>.</p>
     
   <p>In many cases, you may want to start by listing how many files will match.  You can do this by using the <code>-c</code> option to the <code>locate</code> command:</p>
@@ -607,7 +607,7 @@ update-passwd (8)    - safely update /etc/passwd, /etc/shadow and /etc/group
   <strong><span class="ansi-green">sysadmin@localhost</span>:<span class="ansi-blue">~</span>$</strong></pre>   
 
 
-  <h2><a name="23">5.4.4 Limiting the Output</a></h2>
+  <h2><a name="23">1.4.4 Limiting the Output</a></h2>
   <p>You can limit the output produced by the <code>locate</code> command by using the <code>-b</code> option.  This option will only include listings that have the search term in the <var>basename</var> of the filename.  The basename is the portion of the filename not including the directory names.</p>
 
   <pre class="content_terminal"><strong><span class="ansi-green">sysadmin@localhost</span>:<span class="ansi-blue">~</span>$</strong> locate -c -b passwd                              
