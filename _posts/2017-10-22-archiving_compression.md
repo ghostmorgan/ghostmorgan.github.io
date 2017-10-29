@@ -26,6 +26,8 @@ author: DenIvTea
 * <a href="#3">1.3 Archiving Files</a>
 * <a href="#4">1.4 ZIP files</a>
 
+<h2><a name="1">1.1 Introduction</a></h2>
+
 <p>You can archive multiple files into a single archive and then compress it, or you can compress an individual file.  The former is still referred to as archiving, while the latter is just called compression.  When you take an archive, decompress it and extract one or more files, you are <var>un-archiving</var> it.</p>
 
 <p>Even though disk space is relatively cheap, archiving and compression still has value:</p>
@@ -38,7 +40,8 @@ author: DenIvTea
 </ul>
 
 <p>As a Linux administrator, you should become familiar with the tools for archiving and compressing files.</p>
-<h2><a name="2">7.2 Compressing files</a></h2>
+
+<h2><a name="2">1.2 Compressing files</a></h2>
 <p><var>Compressing</var> files makes them smaller by removing duplication from a file and storing it such that the file can be restored.  A file with human readable text might have frequently used words replaced by something smaller, or an image with a solid background might represent patches of that color by a code.  You generally don’t use the compressed version of the file, instead you decompress it before use.  The <var>compression algorithm</var> is a procedure the computer does to encode the original file, and as a result make it smaller.  Computer scientists research these algorithms and come up with better ones that can work faster or make the input file smaller.</p>
 
 <p>When talking about compression, there are two types:</p>
@@ -95,7 +98,7 @@ author: DenIvTea
 <p>There is another pair of commands that operate virtually identically to <code>gzip</code> and <code>gunzip</code>. These are <code>bzip2</code> and <code>bunzip2</code>. The <code>bzip</code> utilities use a different compression algorithm (called Burrows-Wheeler block sorting, versus Lempel-Ziv coding used by <code>gzip</code>) that can compress files smaller than <code>gzip</code> at the expense of more CPU time. You can recognize these files because they have a <code class="console">.bz</code> or <code class="console">bz2</code> extension instead of <code class="console">.gz</code>.</p>
 
 
-<h2><a name="3">7.3 Archiving Files</a></h2>
+<h2><a name="3">1.3 Archiving Files</a></h2>
 <p>If you had several files to send to someone, you could compress each one individually.  You would have a smaller amount of data in total than if you sent uncompressed files, but you would still have to deal with many files at one time.</p>
 
 <p><var>Archiving</var> is the solution to this problem.  The traditional UNIX utility to archive files is called <code>tar</code>, which is a short form of TApe aRchive.  <var>Tar</var> was used to stream many files to a tape for backups or file transfer.  Tar takes in several files and creates a single output file that can be split up again into the original files on the other end of the transmission.</p>
@@ -219,7 +222,7 @@ logs/access_log</pre>
 
 <p>Tar has many more features, such as the ability to use patterns when extracting files, excluding certain files, or outputting the extracted files to the screen instead of disk. The documentation for <code>tar</code> has in depth information.</p>
 
-<h2><a name="4">7.4 ZIP files</a></h2>
+<h2><a name="4">1.4 ZIP files</a></h2>
 <p>The de facto archiving utility in the Microsoft world is the ZIP file.  It is not as prevalent in Linux but is well supported by the <code>zip</code> and <code>unzip</code> commands.  With <code>tar</code> and <code>gzip</code>/<code>gunzip</code> the same commands and options can be used to do the creation and extraction, but this is not the case with <code>zip</code>.  The same option has different meanings for the two different commands.</p>
 
 <p>The default mode of <code>zip</code> is to add files to an archive and compress it.</p>
