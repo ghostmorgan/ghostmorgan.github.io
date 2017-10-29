@@ -1,3 +1,16 @@
+---
+bg: "linux.jpg"
+layout: post
+comments: true
+title:  "Pipes, Redirection, and REGEX"
+crawlertitle: "Pipes, Redirection, and REGEX"
+summary: "Стандартные I/O потоки, перенаправление и регулярные выражения"
+date:   2017-10-29 14:15:00 +0300
+categories: posts
+tags: ['linux']
+author: DenIvTea
+---
+
 <p>A large number of the files in a typical filesystem are <var>text files</var>.  Text files contain simply text, no formatting features that you might see in a word processing file.</p>
 
 <p>Because there are so many of these files on a typical Linux system, a great number of commands exist to help users manipulate text files.  There are commands to both view and modify these files in various ways.</p>
