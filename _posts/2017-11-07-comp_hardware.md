@@ -383,3 +383,5 @@ Disk identifier: 0x000571a2
 <p>Power supplies are the devices that convert alternating current (120v, 240v) into direct current, which the computer uses at various voltages (3.3v, 5v, 12v, etc.).  Power supplies are generally not programmable, however their proper function has a major impact on the rest of the system. </p> 
 
 <p>Although they are not surge suppressors, these devices often protect the computer from fluctuations in voltage coming from the power source.  It is wise for a network administrator to choose a power supply based on quality rather than price, since a failing power supply can result in major destruction to a computer system.</p>
+
+*Все материалы взяты с официального курса <i class="fa fa-link"></i> [NDG Linux Essential](https://www.netacad.com/ru/courses/ndg-linux-essentials/)*
