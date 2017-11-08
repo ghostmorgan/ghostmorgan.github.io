@@ -2,10 +2,10 @@
 bg: "linux.jpg"
 layout: post
 comments: true
-title:  "Archiving and Compression"
-crawlertitle: "Archiving and Compression"
-summary: "Архивирование и сжатие"
-date:   2017-10-23 12:20:00 +0300
+title:  "Managing Packages and Processes"
+crawlertitle: "Managing Packages and Processes"
+summary: "Менеджеры пакетов и процессы"
+date:   2017-11-08 17:00:00 +0300
 categories: posts
 tags: ['linux']
 author: DenIvTea
