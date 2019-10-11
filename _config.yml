@@ -45,3 +45,6 @@ sass:
   style: compressed
 
 images: '/assets/images'
+
+plugins: 
+  'jemoji'
