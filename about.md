@@ -8,7 +8,7 @@ summary: "About this blog and me"
 active: about
 ---
 
-<p style="text-align: justify;">Hello everybody! My name's Ivan. I'm 23. I live in Stavropol. It's a middle town in south of Russia. It's my personal blog and I really want to share with you my interesting materials. Sometimes I want to write interesting posts about things I like. I'm a computer security specialist, but I've got a lot of hobbies. I'm into history, maths, languages, music, programming, networking, games and so on. It's my first experience in writing, so don't judge me so strictly! Though I don't care! Feel like at home. Love everybody!</p>
+<p style="text-align: justify;">Hello everybody! My name's Ivan. I'm 25. I live in Stavropol. It's a middle town in south of Russia. It's my personal blog and I really want to share with you my interesting materials. Sometimes I want to write interesting posts about things I like. I'm a computer security specialist, but I've got a lot of hobbies. I'm into history, maths, languages, music, programming, networking, games and so on. It's my first experience in writing, so don't judge me so strictly! Though I don't care! Feel like at home. Love everybody!</p>
 
 You can find out more about me:
 
