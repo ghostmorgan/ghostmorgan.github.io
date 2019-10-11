@@ -46,5 +46,5 @@ sass:
 
 images: '/assets/images'
 
-gems: 
+plugins: 
   - jemoji
