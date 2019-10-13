@@ -93,4 +93,4 @@ comments: true
 
 <h2><a name="5">5. Риск информационной безопасности. Составляющие риска</a></h2>
 
-$$mean = \frac{\displaystyle\sum_{i=1}^{n} x_{i}}{n}$$
+$$R = \sum\limits_{i=1}^n (A_i*B_i+C_i) < R_m_a_x$$
