@@ -93,4 +93,4 @@ comments: true
 
 <h2><a name="5">5. Риск информационной безопасности. Составляющие риска</a></h2>
 
-<p align="center" style="text-align: center;"><img align="center" src="https://tex.s2cms.ru/svg/R%20%3D%20%5Csum%5Climits_%7Bi%3D1%7D%5En%20(A_i*B_i%2BC_i)%20%3C%20R_m_a_x /></p>
+$$mean = \frac{\displaystyle\sum_{i=1}^{n} x_{i}}{n}$$
