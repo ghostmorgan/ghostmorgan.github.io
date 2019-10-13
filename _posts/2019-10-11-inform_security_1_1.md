@@ -93,4 +93,4 @@ comments: true
 
 <h2><a name="5">5. Риск информационной безопасности. Составляющие риска</a></h2>
 
-$$R = \sum\limits_{i=1}^n (A_i*B_i+C_i) < R_m_a_x$$
+$$x_{1,2} = {-b\pm\sqrt{b^2 - 4ac} \over 2a}.$$
