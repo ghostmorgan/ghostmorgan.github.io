@@ -45,3 +45,6 @@ sass:
   style: compressed
 
 images: '/assets/images'
+
+mermaid:
+  src: 'https://unpkg.com/browse/mermaid@8.4.0/dist/mermaid.js'

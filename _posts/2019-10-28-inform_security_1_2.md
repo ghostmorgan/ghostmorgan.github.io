@@ -32,8 +32,6 @@ comments: true
 
 > **Безопасность** - защищенность от опасностей, а вернее защищенность от возможного ущерба, наносимого при возможной реализации любых угроз.
 
-  <script src="https://unpkg.com/browse/mermaid@8.4.0/dist/"></script>
-
 <div class="mermaid">
 sequenceDiagram
     participant Alice
@@ -55,3 +53,11 @@ graph TD;
     B-->D;
     C-->D;
 </div>
+
+{% mermaid %}
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+{% endmermaid %}
