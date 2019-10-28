@@ -35,22 +35,7 @@ comments: true
 <script src="https://unpkg.com/mermaid@8.4.0/dist/mermaid.min.js"></script>
 <div class="mermaid">
 graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-</div>
-
-<div class="mermaid">
-sequenceDiagram;
-    participant Alice;
-    participant Bob;
-    Alice->>John: Hello John, how are you?;
-    loop Healthcheck;
-        John->>John: Fight against hypochondria;
-    end;
-    Note right of John: Rational thoughts <br/>prevail!;
-    John-->>Alice: Great!;
-    John->>Bob: How about you?;
-    Bob-->>John: Jolly good!;
+    B(Ущерб) -->D(Материальный) -->|Субъект ущерба| G(Человек);
+    B -->E(Моральный) -->|Субъект ущерба| G(Человек);
+    B -->F(Физический) -->|Субъект ущерба| G(Человек);
 </div>
