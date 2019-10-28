@@ -45,3 +45,8 @@ sass:
   style: compressed
 
 images: '/assets/images'
+
+plugins: [jekyll-mermaid]
+
+mermaid:
+  src: ' https://unpkg.com/mermaid@8.4.0/dist/'
