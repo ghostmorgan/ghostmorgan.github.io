@@ -33,9 +33,10 @@ comments: true
 > **Безопасность** - защищенность от опасностей, а вернее защищенность от возможного ущерба, наносимого при возможной реализации любых угроз.
 
 <div class="mermaid">
-graph LR
-   A --> B
-   A -->C
-   C -->D
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
 </div>
 <script async src="https://unpkg.com/mermaid@8.2.3/dist/mermaid.min.js"></script>
