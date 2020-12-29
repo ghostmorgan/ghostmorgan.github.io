@@ -40,7 +40,7 @@ active: read
 
 ### Linux (3)
 <ol>
-  <li>Red Hat Enterprise Linux 8.0 (RH124) - Red Hat System Administration 1</a></li>
-  <li>Red Hat Enterprise Linux 8.0 (RH134) - Red Hat System Administration 2</a></li>
+  <li>Red Hat Enterprise Linux 8.0 (RH124) - Red Hat System Administration 1/li>
+  <li>Red Hat Enterprise Linux 8.0 (RH134) - Red Hat System Administration 2</li>
   <li>Unix и Linux руководство системного администратора - Немет</li>
 </ol>
