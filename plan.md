@@ -12,14 +12,35 @@ active: read
 
 <p>Данный список не является четким планом по чтению, а скорее ориентиром, которого необходимо придерживаться, чтобы не забывать, что я хотел прочитать.</p>
 
-<h2>Технические книги (3/11)</h2>
+## Технические книги:
 
+### Routing and Switching (6)
 <ol>
-  <li><a href="https://leanpub.com/python-master">The Python Master</a> (K)</li>
+  <li>Encor SG</li>
+  <li>CCNP and CCIE Enterprise Core ENCOR 350-401 Official Cert Guide</li>
+  <li>CCNP Enterprise Advanced Routing ENARSI 300-410 Official Cert Guide</li>
+  <li>101 Labs Cisco CCNP</li>
+  <li>Network Lessons CCNP Encor</li>
+  <li>Network Lessons CCNP Enarsi</li>
 </ol>
 
-<h2>Всё остальное (17)</h2>
-
+### Collaboration (3)
 <ol>
-  <li><a href="https://www.amazon.com/Song-Achilles-Madeline-Miller-ebook/dp/B005FPWUSA/"><del>The Song of Achilles</del></a> (A)</li>
+  <li>CCNA Collaboration CICD 210-060</li>
+  <li>CCNA Collaboration 210-065 CIVND Official Cert Guide</li>
+  <li>CCNP and CCIE Collaboration Core CLCOR 350-801 Official Cert Guide</li>
+</ol>
+
+### Python (3)
+<ol>
+  <li><a href="https://pyneng.readthedocs.io/ru/latest/">Python для сетевых инженеров</a></li>
+  <li><a href="https://www.youtube.com/playlist?list=PLah0HUih_ZRnJFNdZsWr2pNWgYETauGXo">Python для сетевых инженеров - youtube</a></li>
+  <li><a href="https://advpyneng.readthedocs.io/ru/latest/">Python для сетевых инженеров. Том 2: Продвинутые возможности Python с примерами на сетевой тематике</a></li>
+</ol>
+
+### Linux (3)
+<ol>
+  <li>Red Hat Enterprise Linux 8.0 (RH124) - Red Hat System Administration 1</a></li>
+  <li>Red Hat Enterprise Linux 8.0 (RH134) - Red Hat System Administration 2</a></li>
+  <li>Unix и Linux руководство системного администратора - Немет</li>
 </ol>
