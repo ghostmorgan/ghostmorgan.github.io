@@ -4,7 +4,7 @@ layout: page
 title: "Plans"
 crawlertitle: "Набор книг на 2021 год"
 permalink: /to-read-2021/
-summary: "Планы по книгам на 2021"
+summary: "Планы по книгам"
 active: read
 ---
 
